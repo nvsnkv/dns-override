@@ -1,0 +1,67 @@
+body {
+	width:1000px;
+	margin: 0px auto;
+}
+
+#logo {
+	display: block;
+	padding-top: 50px;
+	float: left;
+}
+
+#settings {
+	float:left;
+}
+
+.button {
+	color:gray;
+}
+
+.button:hover {
+	cursor: hand;
+}
+
+.button.enabled {
+	color:green;
+}
+
+#table_container {
+	margin-top: 30px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 0px 5px 5px 5px;
+}
+
+td {
+	margin: 0px 2px;
+}
+
+th, td {
+	text-align: center;
+}
+
+input[type=text] {
+	width:300px;
+	margin: 2px;
+}
+
+#adder {
+	background: lightblue;
+	margin: 4px 0px;
+}
+
+#adder a {
+	color:blue;
+}
+
+#clear {
+	background: coral;
+}
+
+#clear a {
+	color: red;
+}
+
+#delimiter {
+	height: 10px;
+}

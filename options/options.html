@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Options | DNS Override</title>
+		<link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" href="options.css">
+				<script type="text/javascript" src="/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="mustache.js"></script>
+		<script type="text/javascript" src="/log.js"></script>
+		<script type="text/javascript" src="options.js"></script>
+	</head>
+	<body>
+		<img src="dns_icon.png" alt="DNS Override" id="logo">
+		<div id="settings">
+			<h1>Settings | DNS Override</h1>
+			<div>
+				<p>DNS Override is a simple extension for overriding domain names directly in the page.</p>
+				<p>In this page you can disable or enable extension, add and remove aliases for domains</p>
+			</div>
+			<div>
+				<p>Rewrite engine: 
+					<a class="button" id="isRewriterEnabled">Disabled</a></p>
+			</div>
+			
+			<div id="table_container">
+				<h2>Aliases</h2>
+				<table id="aliases">
+					<tr>
+						<th>on</th>
+						<th>hostname</th>
+						<th>alias</th>
+						<th>actions</th>
+					</tr>
+					<tr id="adder">
+						<td><span>+</span></td>
+						<td><input type="text" id="new_host"></td>
+						<td><input type="text" id="new_alias"></td>
+						<td><a id="addAlias" class="button">add</a></td>
+					</tr>
+					<tr id="delimiter"></tr>
+					<tr id="clear">
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><a class="button" id="clearAliases">remove all</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
