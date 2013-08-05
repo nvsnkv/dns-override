@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 
-  	"name": "DNS Override",
+  	"name": "DNS Overrider",
   	"description": "This extension allows you to override domain names inside web-pages.",
   	"version": "0.1.1",
 

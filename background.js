@@ -26,7 +26,7 @@ function setRewriterState(state) {
 
 function ToggleIcon(id, state) {
     var iconPath = state ? "img/dns_enabled_38.png" : "img/dns_disabled_38.png";
-    var iconText = state ? "[ENABLED] DNS Override" : "[DISABLED] DNS Override";
+    var iconText = state ? "[ENABLED] DNS Overrider" : "[DISABLED] DNS Overrider";
     
     function ShowIcon() {
         chrome.pageAction.show(id);
