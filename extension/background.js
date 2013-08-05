@@ -31,7 +31,8 @@ function ToggleIcon(id, state) {
     function ShowIcon() {
         chrome.pageAction.show(id);
     }
-    
+
+    chrome.pageAction.onClicked.addListener(function(){});    
     chrome.pageAction.setTitle({tabId: id, title: iconText});
     chrome.pageAction.setIcon({tabId: id, path: iconPath}, ShowIcon);
 }

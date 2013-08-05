@@ -6,9 +6,7 @@
   	"version": "0.1.1",
 
     "icons": { 
-      "16":  "img/dns_icon16.png",
-      "48":  "img/dns_icon48.png",
-      "128": "img/dns_icon128.png" 
+      "128": "img/dns_overrider_icon.png" 
     },
 
   	"page_action": {
@@ -17,8 +15,7 @@
       		"38": "img/dns_enabled_38.png"
     	},
 
-    	"default_title": "Chrome DNS",
-    	"default_popup": "popup.html"
+    	"default_title": "DNS Overrider"
     },
 
     "content_scripts": [
